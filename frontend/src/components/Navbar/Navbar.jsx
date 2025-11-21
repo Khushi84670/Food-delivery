@@ -29,11 +29,11 @@ import { StoreContext } from '../../context/StoreContext';
         Home
       </a>
     ) : (
-      <link href="/"
+      <a href="/"
          onClick={() => setMenu('home')}
          className={menu === 'home' ? styles.active : ''}>
         Home
-      </link>
+      </a>
     )}
   </li>
 
@@ -109,5 +109,4 @@ import { StoreContext } from '../../context/StoreContext';
 }
 
 export default Navbar;
-
 
