@@ -109,3 +109,7 @@ import { StoreContext } from '../../context/StoreContext';
 }
 
 export default Navbar;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3f327e811e0f68dad26a1ef82f9c126a60e8f088
